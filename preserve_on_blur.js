@@ -34,8 +34,8 @@
             // Do the default actions
             original.apply( this, e );
             
-            // Set the value back                    
-            this.setTextboxValue( inputValue );
+            // Adding item on blur (used with tag mode)                   
+            this.createItem(inputValue, true);
         };                                
     } )();
 } );
