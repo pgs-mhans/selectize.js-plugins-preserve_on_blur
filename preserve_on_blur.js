@@ -35,7 +35,7 @@
             original.apply( this, e );
             
             // Adding item on blur (used with tag mode)                   
-            this.createItem(inputValue, true);
+            this.createItem(inputValue, false);
         };                                
     } )();
 } );
